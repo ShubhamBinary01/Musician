@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+
+@font-face {
+  font-family: "Booter - Zero Zero";
+  src: url("fonts/Booter\ -\ Zero\ Zero\ \(1\).woff2") format("woff"),
+    url("fonts/Booter\ -\ Zero\ Zero\ \(2\).woff") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Raleway;
+  color: #777;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul {
+  margin: 0;
+}
+
+.nav li {
+  display: inline;
+}
+
+.main-nav {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: lighter;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.main-nav li {
+  padding: 0 5%;
+}
+
+.nav a {
+  display: inline-block;
+  padding: 0.5em;
+  color: white;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.main-header {
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url("images/background2.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding-bottom: 50px;
+}
+
+.taylor-name {
+  text-align: center;
+  margin: 0;
+  font-size: 4em;
+  font-family: "Booter - Zero Zero";
+  font-weight: normal;
+  color: white;
+}
+
+.taylor-name-large {
+  font-size: 8em;
+}
+
+.content-section {
+  margin: 1em;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+}
+
+.section-header {
+  font-family: "Metal Mania";
+  font-weight: normal;
+  color: #333;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.about-taylor-image {
+  float: left;
+  height: 200px;
+  width: 200px;
+  margin: 15px;
+  border-radius: 50%;
+}
+
+/*@media only screen and (min-width: 400px) {
+  .main-header {
+    background-image: url("images/band.jpg");
+    background-size: cover;
+    height: ;
+  }
+}*/
